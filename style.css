@@ -1,0 +1,201 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+    }
+    
+    body{
+    background:#0f172a;
+    color:white;
+    }
+    
+   header{
+   position:fixed;
+   width:100%;
+   top:0;
+   left:0;
+   padding:20px 10%;
+   z-index:10;
+   }
+   
+   .navbar{
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+   }
+    
+    .logo{
+    font-size:25px;
+    font-weight:bold;
+    color:#00f7ff;
+    }
+    
+    .navbar ul{
+    display:flex;
+    list-style:none;
+    }
+    
+    .navbar ul li{
+    margin-left:25px;
+    }
+    
+    .navbar ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    }
+    
+    .navbar ul li a:hover{
+    color:#00f7ff;
+    }
+    
+    .home{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 10%;
+    }
+    
+    /* Generic inner pages (About, Skills, Projects, Contact) */
+    .page{
+    min-height:100vh;
+    padding:140px 10% 60px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    }
+    
+    .page-content{
+    max-width:950px;
+    width:100%;
+    background:rgba(15,23,42,0.9);
+    border-radius:20px;
+    padding:30px 35px;
+    box-shadow:0 0 35px rgba(0,247,255,0.15);
+    border:1px solid rgba(148,163,184,0.5);
+    }
+    
+    .page-title{
+    font-size:40px;
+    margin-bottom:10px;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    color:#e5e7eb;
+    }
+    
+    .page-title i{
+    color:#00f7ff;
+    }
+    
+    .page-subtitle{
+    color:#9ca3af;
+    margin-bottom:24px;
+    }
+    
+    .home-content h1{
+    font-size:60px;
+    color:#00f7ff;
+    }
+    
+    .home-content h3{
+    font-size:30px;
+    }
+    
+    .home-content span{
+    color:#00f7ff;
+    }
+    
+    .home-content p{
+    margin:15px 0;
+    }
+    
+    .social-media a{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    border:2px solid #00f7ff;
+    border-radius:50%;
+    text-align:center;
+    line-height:40px;
+    margin-right:10px;
+    color:#00f7ff;
+    }
+    
+    .btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:10px 25px;
+    background:#00f7ff;
+    color:black;
+    border-radius:25px;
+    text-decoration:none;
+    font-weight:bold;
+    }
+    
+    .home-img img{
+    width:380px;
+    border-radius:50%;
+    box-shadow:0 0 40px #00f7ff;
+    }
+    
+    /* About page table styling */
+    .education{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:16px;
+    }
+    
+    .education th,
+    .education td{
+    border:1px solid rgba(148,163,184,0.6);
+    padding:10px 12px;
+    text-align:left;
+    }
+    
+    .education th{
+    background:rgba(15,23,42,0.9);
+    color:#00f7ff;
+    }
+    
+    .education tr:nth-child(even){
+    background:rgba(15,23,42,0.7);
+    }
+    
+    /* Skill & project pill lists */
+    .pill-list{
+    list-style:none;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:12px;
+    }
+    
+    .pill-list li{
+    background:rgba(15,23,42,0.95);
+    border-radius:999px;
+    padding:8px 16px;
+    border:1px solid rgba(148,163,184,0.7);
+    display:flex;
+    align-items:center;
+    gap:8px;
+    }
+    
+    .pill-list li i{
+    color:#00f7ff;
+    }
+    
+    /* Contact info lines */
+    .contact-line{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin:10px 0;
+    color:#e5e7eb;
+    }
+    
+    .contact-line i{
+    color:#00f7ff;
+    }
